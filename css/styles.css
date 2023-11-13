@@ -1,0 +1,91 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	  background-image: url('../img/logo.svg' );
+      height: 100px;
+      display: block;      
+      background-repeat: no-repeat;      
+      background-position: bottom center, 50%, 50%;	
+}
+
+#logobitcoin{
+	  background-image: url('../img/bitcoin-logo.svg' );
+      height: 100px;
+      display: block;      
+      background-repeat: no-repeat;      
+      background-position: bottom center, 50%, 50%;		
+}
+
+#logoethereum{
+	  background-image: url('../img/ethereum-logo.svg' );
+      height: 100px;
+      display: block;      
+      background-repeat: no-repeat;      
+      background-position: bottom center, 50%, 50%;		
+}
+
+#logoadacardano{
+	  background-image: url('../img/adacardano-logo.svg' );
+      height: 100px;
+      display: block;      
+      background-repeat: no-repeat;      
+      background-position: bottom center, 50%, 50%;		
+}
+
+header {
+	background-color: red;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#cripto-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.cripto-card {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+input[type="number"] {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	margin: 10px;
+}
+
+button {
+    background-color: #ff0000; /* Vermelho */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000; /* Vermelho escuro no hover */
+}
+
+p {
+    margin: 10px 0;
+}

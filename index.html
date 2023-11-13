@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Empresa de Criptomoedas</title>
+</head>
+<body>
+    <header>
+		<div id="logo"></div>	
+		<h1>Empresa de Criptomoedas</h1>
+		<input type="text" placeholder="Pesquisar por criptomoeda" id="pesquisa-input">
+    </header>
+	
+    <div id="cripto-container">
+		<div class="cripto-card" id="bitcoin">
+			<div id="logobitcoin"></div>
+			<h2>Bitcoin</h2>
+			<p>O Bitcoin (BTC) é uma moeda digital, que é usada e distribuída eletronicamente. O Bitcoin é uma rede descentralizada peer-to-peer. Nenhuma pessoa ou instituição o controla.</p>
+			<p>Taxa de Conversão: 1 BTC = R$ 183.516,90</p>
+			<input type="number" id="bitcoin-input" placeholder="Quantidade em BTC">
+			<button onclick="conversao('bitcoin')">Converter</button>
+			<p id="bitcoin-result"></p>
+		</div>
+		<div class="cripto-card" id="ethereum">
+			<div id="logoethereum"></div>
+			<h2>Ethereum</h2>
+			<p>Ethereum (ETH) é uma criptomoeda e uma plataforma descentralizada baseada em blockchain que foi criada em 2015 por Vitalik Buterin.</p>
+			<p>Taxa de Conversão: 1 ETH = R$ 10.295,96</p>
+			<input type="number" id="ethereum-input" placeholder="Quantidade em ETH">
+			<button onclick="conversao('ethereum')">Converter</button>
+			<p id="ethereum-result"></p>
+		</div>
+
+		<div class="cripto-card" id="adacardano">
+			<div id="logoadacardano"></div>
+			<h2>ADA Cardano</h2>
+			<p>Cardano é uma plataforma em blockchain de código aberto que foi criada com o intuito de resolver problemas de escalabilidade, segurança e robustez de forma descentralizada.</p>
+			<p>Taxa de Conversão: 1 ADA = R$ 1,84</p>
+			<input type="number" id="adacardano-input" placeholder="Quantidade em ADA">
+			<button onclick="conversao('adacardano')">Converter</button>
+			<p id="adacardano-result"></p>
+		</div>
+	</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
